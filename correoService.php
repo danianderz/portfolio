@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Acceso denegado";
 }
 class CorreoService {
-    private $brevoApiKey = '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';
+    private $brevoApiKey = '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';
     private $brevoApiUrl = 'https://api.brevo.com/v3/smtp/email';
 
     public function enviarCorreo($correo, $asunto, $cuerpo) {
